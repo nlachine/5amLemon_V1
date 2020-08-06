@@ -1,13 +1,11 @@
 import React, { Fragment } from 'react';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Navbar from './components/navbar/Navbar';
-import Banner from './components/banner/Banner';
-import Search from './components/search/Search';
-import Explore from './components/explore/Explore';
-import Adventure from './components/adventure/Adventure';
-import Gallery from './components/gallery/Gallery';
-import Contact from './components/contact/Contact';
+import Navbar from './components/landingpage/navbar/Navbar';
+import Banner from './components/landingpage/banner/Banner';
+import Search from './components/landingpage/search/Search';
+import Contact from './components/landingpage/contact/Contact';
+import Occasions from './components/landingpage/occasions/Occasions';
 
 
 function App() {
@@ -16,10 +14,8 @@ function App() {
       <Fragment>
         <Navbar />
         <Banner />
+        <Occasions />
         <Search />
-        <Explore />
-        <Adventure />
-        <Gallery />
         <Contact />
       </Fragment>
     </Router>

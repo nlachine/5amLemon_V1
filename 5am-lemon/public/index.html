@@ -53,7 +53,22 @@
     $(document).ready(function () {
       $('.sidenav').sidenav();
     });
+
+    //Carousel
+    $(document).ready(function () {
+      $('.slider').slider({
+        indicator: false,
+        height: 800,
+        transition: 500,
+        interval: 6000
+      });
+    });
+
+    $('.scrollspy').scrollSpy();
+
   </script>
+
+
 </body>
 
 </html>
