@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-export default class Occasions extends Component {
+export default class Occasion extends Component {
     render() {
         return (
             <div>
                 <section id="occasion" className="section section-icons grey lighten-4 center scrollspy">
-                    <div className="container pad2x">
+                    <div className="container">
                         {/*---Title---*/}
                         <h4 className="center">Occasions</h4>
 

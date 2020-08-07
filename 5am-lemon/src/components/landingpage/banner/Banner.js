@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import '../../../../node_modules/materialize-css/dist/css/materialize.css';
 import './Banner.css';
 
@@ -21,7 +22,7 @@ export default class Banner extends Component {
                             <h5 className="light white-text hide-on-small-only">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla non nisi at vestibulum.
                             </h5>
-                            <Link to="!#" className="btn-floating btn-large yellow hoverable waves-effect"><i class="material-icons black-text">keyboard_arrow_down</i></Link>
+                            <AnchorLink href="/occasion" className="btn-floating btn-large yellow hoverable waves-effect"><i class="material-icons black-text">keyboard_arrow_down</i></AnchorLink>
                         </div>
                     </li>
                     <li>
@@ -31,7 +32,7 @@ export default class Banner extends Component {
                             <h5 className="light white-text hide-on-small-only">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla non nisi at vestibulum.
                             </h5>
-                            <Link to="!#" className="btn btn-large yellow hoverable waves-effect black-text">Get Started</Link>
+                            <AnchorLink href="/occasion" className="btn btn-large yellow hoverable waves-effect black-text">Get Started</AnchorLink>
                         </div>
                     </li>
                     <li>
@@ -41,7 +42,7 @@ export default class Banner extends Component {
                             <h5 className="light white-text hide-on-small-only">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla non nisi at vestibulum.
                             </h5>
-                            <Link to="!#" className="btn btn-large yellow hoverable waves-effect black-text">Get Started</Link>
+                            <AnchorLink href="/occasion" className="btn btn-large yellow hoverable waves-effect black-text">Get Started</AnchorLink>
                         </div>
                     </li>
                 </ul>
