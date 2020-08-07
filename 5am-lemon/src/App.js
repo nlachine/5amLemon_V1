@@ -6,6 +6,7 @@ import Banner from './components/landingpage/banner/Banner';
 import Search from './components/landingpage/search/Search';
 import Contact from './components/landingpage/contact/Contact';
 import Occasions from './components/landingpage/occasions/Occasions';
+import Footer from './components/landingpage/footer/Footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Occasions />
         <Search />
         <Contact />
+        <Footer />
       </Fragment>
     </Router>
   );

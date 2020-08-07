@@ -5,7 +5,7 @@ export default class Occasions extends Component {
         return (
             <div>
                 <section id="occasion" className="section section-icons grey lighten-4 center scrollspy">
-                    <div className="container">
+                    <div className="container pad2x">
                         {/*---Title---*/}
                         <h4 className="center">Occasions</h4>
 

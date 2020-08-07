@@ -9,3 +9,7 @@
     border: 2px;
     border-color: yellow;
 }
+
+.slider .caption {
+    padding-top: 100px;
+}
