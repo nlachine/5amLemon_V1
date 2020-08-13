@@ -5,7 +5,7 @@ export default class Footer extends Component {
     render() {
         return (
             <div>
-                <footer class="page-footer yellow">
+                <footer class="page-footer teal lighten-3">
                     <div class="container">
                         <div class="row center">
                             <div class="col s12 center offset-s2">
