@@ -4,7 +4,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import '../../../../node_modules/materialize-css/dist/css/materialize.css';
 import './Banner.scss';
 
-import ImgOne from '../../../images/Wavy_1080-3.png';
+import ImgOne from '../../../images/Wavy_1080-5.png';
 //import ImgOne from '../../../images/Lemons1.jpg';
 
 

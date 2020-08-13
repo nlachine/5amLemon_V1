@@ -19,7 +19,7 @@ export default class Occasion extends Component {
     render() {
         return (
             <div className="occasion">
-                <section id="occasion" className="section section-icons white center scrollspy">
+                <section id="occasion" className="section section-icons teal lighten-4 center scrollspy">
                     <div className="container">
                         {/*---Title---*/}
                         <h4 className="center teal-text text-darken-1">Occasions</h4>
